@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rubik {
+  font-family: var(--font-rubik);
+}
+
+:root {
+  --toastify-color-dark: #1c1c3a;
+  --toastify-font-family: var(--font-rubik);
+  --toastify-toast-max-height: 71px;
+  /* --toastify-icon-color-error: #efe81b; */
+}
+/* 
+
+
+.Toastify__toast--error {
+  border: 0.2px solid #c9f01d;
+}
+.Toastify__toast--info {
+  border: 0.2px solid #0c95ea;
+} */
+/* .Toastify__toast--error {
+  border: 0.2px solid #d5e406;
+} */
+
+.Toastify__toast {
+  border: 0.2px solid #696768;
+}
